@@ -1,0 +1,33 @@
+.header-spiderman {
+    background-image: url(../minha_loja_site/imagens_atualizadas/spidermanheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spiderman {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: fit-content;
+}
+
+.spiderman img {
+    width: 60%;
+}
+
+
+                /*      Media Screen        */
+
+@media screen and (max-width: 768px) {
+    .header-spiderman {
+        background-image: url(../minha_loja_site/imagens_atualizadas/spidermanheader_mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .spiderman {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+}

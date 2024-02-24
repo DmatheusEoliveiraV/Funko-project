@@ -1,0 +1,36 @@
+
+.header-robin {
+    background-image: url(../minha_loja_site/imagens_atualizadas/contatoheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+.robin {
+    margin-top: 360px;
+    margin-bottom: 100px;
+    margin-left: 260px;
+    width: fit-content;
+}
+
+.robin img {
+    width: 60%;
+}
+
+
+                /*      Media Screen        */
+
+@media screen and (max-width: 768px) {
+
+    .header-robin {
+        background-image: url(../minha_loja_site/imagens_atualizadas/contatoheader_mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    .robin img {
+        width: 0;
+    }
+}

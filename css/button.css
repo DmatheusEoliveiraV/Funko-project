@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    border: 2px solid #fc3836;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fc3836;
+    cursor: pointer;
+}
+
+.buddy-button {
+    padding-top: 50px;
+}

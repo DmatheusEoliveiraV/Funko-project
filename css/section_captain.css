@@ -1,0 +1,38 @@
+.header-captain {
+    background-image: url(../minha_loja_site/imagens_atualizadas/captainmarvelheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.captain {
+    margin-top: 400px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    width: fit-content;
+}
+
+.captain img {
+    width: 50%;
+}
+
+                /*      Media Screen        */
+
+@media screen and (max-width: 768px) {
+    .header-captain {
+        background-image: url(../minha_loja_site/imagens_atualizadas/captainmarvelheader_Mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    .captain {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+        width: fit-content;
+    }
+
+    .captain img {
+        width: 0;
+    }
+}
